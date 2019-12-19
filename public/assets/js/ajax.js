@@ -1352,7 +1352,7 @@ $( "#add_rol" ).click(function(event){
             }
         })
     })
-$( "#add_permiso" ).click(function(event){
+$( "#add_permiso").click(function(event){
         var route = "./permisos/"
         var dataString  = $( '#form_add_permisos' ).serializeArray()
         $.ajax({
