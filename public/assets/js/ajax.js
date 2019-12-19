@@ -1450,7 +1450,7 @@ $( "#ingresar" ).click(function(event){
             datatype: 'json',
             data:dataString,
             success:function(){
-                redirect('/vet/public/');
+                redirect('/vet_pruebas/public/');
             },
             error:function(data){
               var error = data.responseJSON.errors;
