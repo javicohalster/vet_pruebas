@@ -55,14 +55,6 @@
                 </a>
             </li>
             @endpermission
-            @permission('leer-pacientes')
-            <li>
-           <a href="{{ url('archivos') }}">
-               <i class="material-icons">pets</i>
-               <p>Archivos</p>
-           </a>
-       </li>
-       @endpermission
            @permission('leer-citas')
             <li>
                 <a href="{{url('consultas')}}">

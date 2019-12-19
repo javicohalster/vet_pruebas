@@ -35,8 +35,4 @@ class Query extends Model
     {
         return ucwords($valor);
     }
-    public function publicaciones()
-    {
-        return $this->hasMany('App\Publicaciones');
-    }
 }

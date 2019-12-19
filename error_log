@@ -1,0 +1,56 @@
+[24-Sep-2019 21:23:06 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:23:06 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:24:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:24:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:25:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:25:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:26:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:26:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:27:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:27:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:28:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:28:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:29:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:29:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:30:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:30:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:31:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:31:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:32:02 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:32:02 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:33:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:33:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:34:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:34:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:35:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:35:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:36:02 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:36:02 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:37:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:37:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:38:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:38:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:39:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:39:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:40:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:40:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:41:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:41:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:42:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:42:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:43:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:43:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:44:02 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:44:02 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:45:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:45:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:46:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:46:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:47:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:47:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:48:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:48:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:51:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:51:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57
+[24-Sep-2019 21:52:01 UTC] PHP Notice:  Undefined index: argv in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 53
+[24-Sep-2019 21:52:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/xgibxitaac01/public_html/vet/vendor/symfony/console/Input/ArgvInput.php on line 57

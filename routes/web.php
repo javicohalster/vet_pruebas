@@ -11,8 +11,6 @@ Route::middleware(['auth', 'role:administrador|doctor|recepcionista'])->group(fu
 	Route::resource('permisos-roles', 'Roles\PermisosRolesController', ['only' => ['edit', 'update']])->middleware(['permission:leer-roles']);
 	Route::resource('especialidades', 'Especialidad\EspecialidadController')->middleware(['permission:leer-especialidades']);
 	Route::resource('pacientes', 'Paciente\PacienteController')->middleware(['permission:leer-pacientes']);
-	//archivos
-	Route::resource('archivos', 'Paciente\PacienteController')->middleware(['permission:leer-pacientes']);
 	Route::resource('roles', 'Roles\RolController')->middleware(['permission:leer-roles']);
 	Route::resource('permisos', 'Permisos\PermisoController')->middleware(['permission:leer-permisos']);
 	//Route::resource('antecedentes', 'Paciente\AntecedenteController', ['only' => ['update', 'edit']]);

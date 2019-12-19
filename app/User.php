@@ -99,10 +99,5 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    public function publicaciones()
-    {
-        return $this->hasMany('App\Publicaciones');
-    }
     
 }

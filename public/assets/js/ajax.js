@@ -630,7 +630,7 @@ $("#diasdesparacitar").change(function(){
       //  var fecha = new Date( moment($('#fechadesparasitacion').val(), 'yyyy-mm-dd'));
       var starts = $(".datepicker[name=fechadesparasitacion]").val();
       var match = /(\d+)\-(\d+)\-(\d+)/.exec(starts)
-      var start_date = new Date(match[3], match[2], match[1]);;
+      var start_date = new Date(match[3], match[2]-1, match[1]);;
       var fecha = start_date;
        // var fecha = new Date( moment($(".datepicker[name=fechadesparasitacion]").val(), 'yyyy-mm-dd'));
         console.info(fecha)
@@ -655,7 +655,7 @@ $("#diasrevacuna").change(function(){
   
         var starts = $(".datepicker[name=fechavacuna]").val();
         var match = /(\d+)\-(\d+)\-(\d+)/.exec(starts)
-        var start_date = new Date(match[3], match[2], match[1]);;
+        var start_date = new Date(match[3], match[2]-1, match[1]);;
         var fecha = start_date;
        // var fecha = new Date( moment($(".datepicker[name=fechavacuna]").val(), 'yyyy-mm-dd'));
        //Date.parse(new Date()).toString('yyyy-MM-dd H:i:s')
@@ -680,8 +680,8 @@ function getFormattedDateHora() {
 function getFormattedDate(date) {
     var year = date.getFullYear();
   
-    var month = (date.getMonth()).toString();
-    month = month.length > 1 ? month : '0' + month;
+    var month = (date.getMonth()+1).toString();
+   month = month.length > 1 ? month : '0' + month;
   
     var day = date.getDate().toString();
     day = day.length > 1 ? day : '0' + day;
@@ -1821,7 +1821,9 @@ function carga_permiso(id)//carga datos de los permisos en el modal editar.
           }
     });
 }
-
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 function carga_paciente(id)//carga datos del paciente en el modal editar.
 {
    //event.preventDefault(); este evento no funciona con firefox y envia error, no cargan los datos en el modal.
@@ -1841,7 +1843,8 @@ function carga_paciente(id)//carga datos del paciente en el modal editar.
             $('#direccion_e').val(data.direccion)
             $('#nacimiento_e').val(data.nacimiento)
             $("INPUT[name=genero_e]").val([data.genero]) //carga valor de radiobutton desde mysql
-            $('#sangre_e').val(data.sangre)
+            $('#sangre_e').val(data.sangre.replace(/\b[a-z]/g,c=>c.toUpperCase()))
+            console.log(data.sangre.replace(/\b[a-z]/g,c=>c.toUpperCase()));
             $('#vih_e').val(data.vih)
             $('#peso_e').val(data.peso)
             $('#altura_e').val(data.altura)
