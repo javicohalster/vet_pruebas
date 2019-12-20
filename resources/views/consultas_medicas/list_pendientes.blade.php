@@ -7,6 +7,7 @@
 				<th>Paciente</th>
 				<th>Propietario</th>
 				<th>Doctor</th>
+				<th>Observación</th>
 				<th>Especialidad</th>
 			</tr>
 		</thead>

@@ -168,6 +168,7 @@ var listar_citas_pendientes = function()
             {data: 'paciente', name: 'paciente.apellidos'},
             {data: 'propietario', name: 'paciente.nombres'},
             {data: 'doctor', name: 'doctor.apellidos'},
+            {data: 'observacion', name: 'descripcion'},
             {data: 'especialidad', name: 'especialidad.nombre'},
         ],
 	})
