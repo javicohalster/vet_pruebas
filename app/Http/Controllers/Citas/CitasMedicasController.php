@@ -76,6 +76,7 @@ class CitasMedicasController extends Controller
                     "message"      => "La cita ha sido reservada correctamente",
                     "reserva"      => $reservas,
                     "doctor"       => $cita->doctor_id,
+                    "observacion"  => $cita->descripcion,
                     "especialidad" => $cita->speciality_id,
 
                     ]);
