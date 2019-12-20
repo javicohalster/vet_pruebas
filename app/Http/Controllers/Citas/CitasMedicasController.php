@@ -54,6 +54,7 @@ class CitasMedicasController extends Controller
             $Finicio            = Date::parse($request->fecha_inicio)->format('Y-m-d');
             $cita->fecha_inicio = $Finicio . " " . $request->hora_inicio;
             $cita->fecha_fin    = $Finicio . " " . $request->hora_fin;
+           // $cita->descripcion  = $request->descripcion;
             $dias_doctor        = Dias::dias_doctor($request->doctor_id, $cita->fecha_inicio);
             //$rango_horas        = Dias::rango_horas($request->doctor_id, $cita->fecha_inicio, $cita->fecha_fin);
             $query_doctor = Query::where('doctor_id', '=', $request->doctor_id)->where('estado', '=', 'pendiente')->whereBetween('fecha_inicio', array($cita->fecha_inicio,$cita->fecha_fin))->count();
@@ -75,8 +76,7 @@ class CitasMedicasController extends Controller
                     "success"      => true,
                     "message"      => "La cita ha sido reservada correctamente",
                     "reserva"      => $reservas,
-                    "doctor"       => $cita->doctor_id,
-                    "descripcion"  => $cita->descripcion,
+                    "doctor"       => $cita->doctor_id,                   
                     "especialidad" => $cita->speciality_id,
 
                     ]);
